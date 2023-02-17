@@ -6,6 +6,12 @@
 We relied on a public dataset that can be found at: https://github.com/Trustworthy-Software/Combination-malware-detectors
 
 We provide the exact lists of sha256 of the apps used in our experiments in the "dataset/data\_splits\_files" folder.
+The folder contains text files that include the lists of hashes and the labels for the dataset splits used in our experiments.
+We recommend to clone the repository since you might be unable to view some lists of hashes using the GitHub interface due to their big size.
+Please use these lists to download the apps from the public reporsitory [AndroZoo](https://androzoo.uni.lu/)
+
+
+
 
 As we mentioned in the paper, we relied on the publicly available [re-implementation](https://github.com/Trustworthy-Software/Reproduction-of-Android-Malware-detection-approaches) of state-of-the-art approaches from their replication study. Please refer to this re-implementation to generate the matrices of each approach for the different splits provided in "dataset/data\_splits\_files" folder.
 When the training, validation and test matrices are generated, place them in the "dataset/matrices" folder.
